@@ -1,0 +1,66 @@
+{
+  "machines": [
+    {
+      "id": 1,
+      "name": "Станок A",
+      "model": "MAZAK",
+      "location": "Цех 1",
+      "status": "В работе",
+      "lastMaintenance": "2024-09-15",
+      "operator": "Иванов И.И.",
+      "hoursWorked": 3200,
+      "description": "Высокоточный станок для сложных фрезерных работ"
+    },
+    {
+      "id": 2,
+      "name": "Станок B",
+      "model": "HAAS",
+      "location": "Цех 2",
+      "status": "Ожидание",
+      "lastMaintenance": "2024-09-10",
+      "operator": "Петров П.П.",
+      "hoursWorked": 4500,
+      "description": "Станок с ЧПУ для обработки металлов средней точности"
+    },
+    {
+      "id": 3,
+      "name": "Станок C",
+      "model": "OKUMA",
+      "location": "Цех 3",
+      "status": "На обслуживании",
+      "lastMaintenance": "2024-08-25",
+      "operator": "Сидоров С.С.",
+      "hoursWorked": 2800,
+      "description": "Компактный многоцелевой станок для обработки деталей"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "date": "2024-10-20",
+      "status": "В процессе",
+      "author": "Иванов И.И.",
+      "details": "Регулярная проверка состояния всех компонентов",
+      "durationHours": 5,
+      "priority": "Средний"
+    },
+    {
+      "id": 2,
+      "date": "2024-10-21",
+      "status": "Завершен",
+      "author": "Петров П.П.",
+      "details": "Ремонт и замена изношенных частей станка B",
+      "durationHours": 8,
+      "priority": "Высокий"
+    },
+    {
+      "id": 3,
+      "date": "2024-10-22",
+      "status": "На рассмотрении",
+      "author": "Сидоров С.С.",
+      "details": "Диагностика неполадок в станке C, требуется замена деталей",
+      "durationHours": 3,
+      "priority": "Низкий"
+    }
+  ]
+}
